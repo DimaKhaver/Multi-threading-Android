@@ -5,13 +5,17 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
 
-    private val cp: ConsumerProducer = ConsumerProducer()
-    private var thread1: Thread? = null
-    private var thread2: Thread? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+    }
+
+    private fun consumerProducerExample() {
+        val cp: ConsumerProducer = ConsumerProducer()
+        var thread1: Thread? = null
+        var thread2: Thread? = null
 
         thread1 = Thread(Runnable {
             try {
@@ -30,6 +34,5 @@ class MainActivity : AppCompatActivity() {
             }
         })
         thread2?.start()
-
     }
 }

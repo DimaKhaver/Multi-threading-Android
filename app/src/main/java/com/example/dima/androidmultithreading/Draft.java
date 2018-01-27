@@ -115,8 +115,6 @@ public class Draft {
 
     }
 
-
-
     // To start a new custom thread:
     // either implement Runnable or extend Thread
     class MyTask1 implements Runnable {
@@ -128,4 +126,11 @@ public class Draft {
     class MyTask2 extends Thread {
 
     }
+
+  //java.lang.Thread -> setPriority(int priority); //based on Java priority: 0(least prioritized)->10
+/*
+    android.os.Process
+    Process.setThreadPriority(int priority); // Calling thread.
+    Process.setThreadPriority(int threadId, int priority); // Thread with specific id.
+*/
 }
