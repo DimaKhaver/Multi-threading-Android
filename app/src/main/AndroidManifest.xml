@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".thread_communication.PipeExampleActivity">
+        <activity android:name=".threads_communication.PipeExampleActivity">
         </activity>
 
     </application>

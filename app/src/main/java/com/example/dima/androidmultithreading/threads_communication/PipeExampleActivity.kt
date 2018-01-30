@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.thread_communication
+package com.example.dima.androidmultithreading.threads_communication
 
 import android.app.Activity
 import android.content.ContentValues.TAG
