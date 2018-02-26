@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.interprocess_communication
+package com.example.dima.androidmultithreading.interprocesscommunication
 
 /**
  * Created by Dima on 2/10/2018.

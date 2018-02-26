@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.asynchronous_techniques.executor_framework
+package com.example.dima.androidmultithreading.asynchronoustechniques.executorframework
 
 import android.os.AsyncTask.THREAD_POOL_EXECUTOR
 import java.util.*
@@ -37,7 +37,8 @@ class SerialExecutor : Executor {
 
     @Synchronized
     protected fun scheduleNext() {
-        if ((active = tasks.poll()) != null)
-            THREAD_POOL_EXECUTOR.execute(active);
+        active = tasks.poll()
+        if ( active != null )
+            THREAD_POOL_EXECUTOR.execute(active)
     }
 }

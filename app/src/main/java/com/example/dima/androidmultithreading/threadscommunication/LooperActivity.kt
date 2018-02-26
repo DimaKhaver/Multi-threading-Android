@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.threads_communication
+package com.example.dima.androidmultithreading.threadscommunication
 
 import android.annotation.SuppressLint
 import android.app.Activity

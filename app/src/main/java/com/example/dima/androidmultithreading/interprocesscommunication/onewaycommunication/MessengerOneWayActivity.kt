@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.interprocess_communication.one_way_communication
+package com.example.dima.androidmultithreading.interprocesscommunication.onewaycommunication
 
 import android.app.Activity
 import android.content.ComponentName

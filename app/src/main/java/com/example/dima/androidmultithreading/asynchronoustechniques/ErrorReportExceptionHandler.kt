@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.asynchronous_techniques
+package com.example.dima.androidmultithreading.asynchronoustechniques
 
 /**
 The Android runtime attaches a process global UncaughtExceptionHandler when an

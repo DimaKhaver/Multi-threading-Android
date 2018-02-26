@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.memory_management
+package com.example.dima.androidmultithreading.memorymanagement
 
 /*
 Inner class implicitly has a reference to the outer class. Threads defined as inner classes

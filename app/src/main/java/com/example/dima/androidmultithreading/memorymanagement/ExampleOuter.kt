@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.memory_management
+package com.example.dima.androidmultithreading.memorymanagement
 
 import java.lang.ref.WeakReference
 

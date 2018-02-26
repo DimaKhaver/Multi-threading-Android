@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.interprocess_communication.one_way_communication
+package com.example.dima.androidmultithreading.interprocesscommunication.onewaycommunication
 
 import android.annotation.SuppressLint
 import android.app.Service

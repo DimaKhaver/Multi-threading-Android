@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading.asynchronous_techniques.handler_thread
+package com.example.dima.androidmultithreading.asynchronoustechniques.handlerthread
 
 import android.os.Handler
 import android.os.HandlerThread
