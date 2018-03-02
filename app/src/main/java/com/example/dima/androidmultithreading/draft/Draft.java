@@ -1,4 +1,4 @@
-package com.example.dima.androidmultithreading;
+package com.example.dima.androidmultithreading.draft;
 
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
@@ -20,8 +20,7 @@ If a thread executes in an atomic region, other threads will be blocked
 until no other thread executes in the atomic region.
 */
 public class Draft {
-    private Draft() {
-    }
+    private Draft() {}
 
     public int sharedRes = 0; //sharedResource is exposed to a race condition
 
@@ -49,9 +48,7 @@ public class Draft {
     }
 
     private class SynchronizeAccess {
-        private SynchronizeAccess(){
-
-        }
+        private SynchronizeAccess() {}
 /*
         // Using the intrinsic lock:
         // method level that operates on the intrinsic lock of the enclosing object instance:
@@ -112,20 +109,16 @@ public class Draft {
                 lock.readLock().unlock();
             }
         }
-
     }
 
     // To start a new custom thread:
     // either implement Runnable or extend Thread
     class MyTask1 implements Runnable {
         @Override
-        public void run() {
-
-        }
+        public void run() {}
     }
-    class MyTask2 extends Thread {
 
-    }
+    class MyTask2 extends Thread {}
 
   //java.lang.Thread -> setPriority(int priority); //based on Java priority: 0(least prioritized)->10
 /*
