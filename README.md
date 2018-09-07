@@ -1,2 +1,2 @@
 # Multi-threading-Android
-Practicing multithreading in Android
+Some examples of multithreading in Android here
